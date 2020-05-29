@@ -1,0 +1,22 @@
+{
+  "name": "offhand-binder",
+  "version": "1.0.0",
+  "description": "Tab-izer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btam06/offhand-binder"
+  },
+  "author": "Avery Tam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btam06/offhand-binder/issues"
+  },
+  "homepage": "https://github.com/btam06/offhand-binder#readme",
+  "dependencies": {
+    "alpinejs": "^2.3.5"
+  }
+}
