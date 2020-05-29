@@ -1,0 +1,15 @@
+body > * {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+}
+
+.tab {
+	border: 1px solid black;
+	padding: 1em;
+}
+
+	.tab header {
+		font-weight: bold;
+		font-size: 1.1em;
+	}

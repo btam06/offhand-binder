@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<script type="module" src="src/index.js"></script>
+		<link rel="stylesheet" href="test/resources/styles.css" />
+	</head>
+	<body>
+		<h1>
+			Demonstration of using offhand binder to js-ize some tabs.  
+		</h1>
+		<p>
+			Offhand-binder uses <a href="https://github.com/alpinejs/alpine/">AlpineJS</a> 
+			to take some pretty unremarkable html and load pages full of content over multiple tabs.
+		</p>
+		<div class="tabs">
+			<div data-binder="tab1" class="tab">
+				<header>
+					Tab 1
+				</header>
+				<div>
+					This is some basic content 
+				</div>
+			</div>
+			<div data-binder="tab2" class="tab">
+				<header>
+					Tab 2
+				</header>
+				<div>
+					<p>
+						This is content
+					</p>
+					<p>
+						Spread over multiple paragraphs
+					</p>
+					<p>
+						It can get pretty long
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
