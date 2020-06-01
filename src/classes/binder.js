@@ -8,6 +8,7 @@ export default class Binder {
 		this.options = {
 			debug: true,
 			tabSelector: '.tab',
+			activeClass: 'active',
 			anchorAttribute: 'data-binder-anchor',
 			sourceAttribute: 'data-binder-source'
 		};
@@ -61,6 +62,14 @@ export default class Binder {
 	 * 
 	 */
 	activate(el) {
+		const anchor = this.container.querySelector('[' + this.options.anchorAttribute + '][href="#' + el.id + '"]');
+
+		this.anchors.forEach(anchor => {
+			anchor.classList.remove(this.options.activeClass);
+		});
+
+		anchor.classList.add(this.options.activeClass);
+
 		this.tabs.forEach((node) => {
 			node.style.display = 'none';
 		});
