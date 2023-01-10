@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/btam06/offhand-binder#readme",
   "dependencies": {
-    "node-rest-client": "^3.1.0"
+    "node-rest-client": "^3.1.1"
   }
 }
